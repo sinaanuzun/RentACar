@@ -2,6 +2,7 @@
 
 Araç kiralama şirketi görevi gören basit bir Web Uygulaması. Kullanıcı mevcut arabaları görüntüleyebilir, yönetici araba ekleme-güncelleme işlemleri yapabilir, admin ise araç silme dahil bütün işlemleri yapabilir.
 
+ <br />
 
 ## Kullanılan Teknolojiler
 
@@ -16,7 +17,8 @@ Araç kiralama şirketi görevi gören basit bir Web Uygulaması. Kullanıcı me
 - Lombok
 - Postman
 
-
+ <br />
+ 
 ## Nasıl Çalıştırılır
 
 1. İndir [MySQL](https://dev.mysql.com/downloads/installer/)
@@ -48,42 +50,41 @@ USER: &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;    Read                
 MANAGER: &nbsp;                                             Read, Create, Update           <br />
 ADMİN:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                Read, Create, Update, Delete   <br />
 
+ <br />
+ 
 ##  Postman ile Rest API Çıktıları
 
-
-
-<font color="red">GET</font>
+GET
 
 ```
 http://localhost:8080/api/car
 
 ```
-
-
 ![Adsıza](https://github.com/sinaanuzun/basicRentACar/assets/126362906/966fe5fe-6211-49b2-8567-9308d03fc35b)
 
+ <br />
 
-<font color="red">POST</font>
+POST
 
 ```
 http://localhost:8080/api/car
 
 ```
-
-
 ![adsızc](https://github.com/sinaanuzun/basicRentACar/assets/126362906/daf7d24f-38cf-4042-a6d5-ec016237fbf3)
 
-<font color="red">PUT</font>
+ <br />
+ 
+PUT
 
 ```
 http://localhost:8080/api/car/1
 
 ```
-
-
 ![Adsızd](https://github.com/sinaanuzun/basicRentACar/assets/126362906/8c0f95f4-efa1-426d-83a9-2eb9f1703af5)
 
-<font color="red">DELETE</font>
+ <br />
+ 
+DELETE
 
 ```
 http://localhost:8080/api/car/2
