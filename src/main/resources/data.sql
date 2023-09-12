@@ -17,7 +17,7 @@ INSERT INTO car (id, brand, model) VALUES
                                        (6, 'Peugeot', '508'),
                                        (7, 'Seat', 'Leon'),
                                        (8, 'Nissan', 'Qashqai'),
-                                       (9, 'Mercedes', 'S500'),
+                                       (9, 'Mercedes', 'GLA 200 AMG'),
                                        (10, 'Maserati', 'Quattroporte');
 
 

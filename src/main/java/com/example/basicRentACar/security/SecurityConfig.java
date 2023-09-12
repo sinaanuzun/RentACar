@@ -51,19 +51,19 @@ public class SecurityConfig {
     public UserDetailsService userDetailsService() {
         UserDetails user = User.builder()
                 .username("user")
-                .password("{noop}test123")
+                .password("{noop}user")
                 .roles("USER")
                 .build();
 
         UserDetails manager = User.builder()
                 .username("manager")
-                .password("{noop}test123")
+                .password("{noop}manager")
                 .roles("USER", "MANAGER")
                 .build();
 
         UserDetails admin = User.builder()
                 .username("admin")
-                .password("{noop}test123")
+                .password("{noop}admin")
                 .roles("USER", "MANAGER", "ADMIN")
                 .build();
 
