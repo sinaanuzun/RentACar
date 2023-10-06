@@ -1,4 +1,4 @@
-# Basic Rent A Car Proje
+# Rent A Car Proje
 
 Araç kiralama şirketi görevi gören basit bir Web Uygulaması. Kullanıcı mevcut arabaları görüntüleyebilir, yönetici araba ekleme-güncelleme işlemleri yapabilir, admin ise araç silme dahil bütün işlemleri yapabilir.
 
